@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondosplashscreen"
+    android:orientation="vertical"
+    tools:context="com.example.kike.galeriaimagenes.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Galeria Acuarella"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#2f000000"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnPrevio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Previo" />
+
+        <Button
+            android:id="@+id/btnSiguiente"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Siguiente" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/ivCuadro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingTop="20dp"
+        android:src="@drawable/boti" />
+
+    <TextView
+        android:id="@+id/tvDescripcion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="#4600ffff"
+        android:text="Boticelli: no me acuerdo del titulo"
+        android:textColor="#b264ff"
+        android:textSize="20dp" />
+
+</LinearLayout>
